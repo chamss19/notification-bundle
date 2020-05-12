@@ -28,7 +28,7 @@ class NotificationExtension extends AbstractExtension
      * NotificationExtension constructor.
      * @param NotificationManager $notificationManager
      * @param TokenStorage $storage
-     * @param \Twig_Environment $twig
+     * @param Environment $twig
      * @param RouterInterface $router
      */
     public function __construct(NotificationManager $notificationManager, TokenStorageInterface $storage, Environment $twig, RouterInterface $router)
